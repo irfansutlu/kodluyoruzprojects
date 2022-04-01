@@ -1,2 +1,0 @@
-# kodluyoruzprojects
-sorting and searching
