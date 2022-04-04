@@ -1,0 +1,45 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: right;
+    background: transparent;
+    position: relative;
+    z-index: 100000;
+    margin-top: 20px;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 20px;
+}
+.container{
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+}
+.about{
+    font-weight: bold;
+    margin: 80px 0;
+}
+.contact{
+    font-weight: bold;
+    margin: 100px 0;
+}
+.contact a{
+    color: rgb(255, 0, 0);
+    margin-top: 60px;
+    line-height: 30px;
+}
+.contact a:hover{
+    color: rgb(131, 97, 3);
+}

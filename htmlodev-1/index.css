@@ -1,0 +1,36 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: right;
+    background: transparent;
+    position: relative;
+    z-index: 100000;
+    margin-top: 20px;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 20px;
+}
+body img{
+    position: absolute;
+    top: 0;
+    max-height: 100%;
+}
+body h1{
+    color: rgb(249,186,135);
+    font-size: 100px;
+    position: relative;
+    z-index: 100000;
+    top: 550px;
+    text-align: center;
+}
